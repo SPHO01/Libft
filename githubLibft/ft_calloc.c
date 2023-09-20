@@ -19,8 +19,8 @@ void	*ft_calloc(size_t count, size_t len)
 
 	if (count == 0 || len == 0)
 	{
-		count = 1;
-		len = 1;
+		count = 0;
+		len = 0;
 	}
 	b = count * len;
 	p = malloc(b);
